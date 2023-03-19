@@ -2,6 +2,21 @@
 export default defineNuxtConfig({
     modules: ['@nuxtjs/tailwindcss'],
 
+    css: [
+        '@fortawesome/fontawesome-svg-core/styles.css',
+        '~/assets/css/main.scss',
+    ],
+    plugins: [
+        {
+            src: '@/plugins/vue-marquee-slider.js', mode: 'client'
+        },
+    ],
+    vue : {
+        config: {
+            productionTip: false,
+            devtools: true
+        }
+    },
     // Defaults options
     tailwindcss: {
         cssPath: '~/assets/css/tailwind.css',
@@ -10,5 +25,5 @@ export default defineNuxtConfig({
         exposeLevel: 2,
         injectPosition: 'first',
         viewer: true,
-    }
+    },
 })
