@@ -1,6 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    modules: ['@nuxtjs/tailwindcss'],
+    modules: [
+        '@nuxtjs/tailwindcss',
+        '@nuxtjs/google-fonts'
+    ],
 
     css: [
         '@fortawesome/fontawesome-svg-core/styles.css',
@@ -26,4 +29,11 @@ export default defineNuxtConfig({
         injectPosition: 'first',
         viewer: true,
     },
+
+    googleFonts: {
+        download: true,
+        families: {
+            Poppins: true,
+        }
+    }
 })
