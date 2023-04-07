@@ -1,7 +1,7 @@
 <template>
   <div>
     <span v-for="(letter, index) in text" :key="index" class="relative">
-      <span :style="{ color: fistColor}">{{ letter }}</span>
+      <span :style="{ color: fistColor }">{{ letter }}</span>
       <span :style="{ color: secondColor, top: randomOffset(), left: randomOffset() }" class="overlay">{{ letter }}</span>
       <span :style="{ color: thirdColor, top: randomOffset(), left: randomOffset() }" class="overlay">{{ letter }}</span>
     </span>
@@ -23,9 +23,9 @@ export default {
   },
   data() {
     return {
-      fistColor: 'black',
-      secondColor: 'blue',
-      thirdColor: 'yellow'
+      fistColor: '#F34D4D',
+      secondColor: '#3F69FF',
+      thirdColor: '#EEDB5F'
     };
   }
 }
@@ -34,6 +34,8 @@ export default {
 <style scoped>
 .overlay {
   position: absolute;
+  bottom: 0;
+  left: 0;
   z-index: 1;
 }
 .overlay:nth-child(2) {

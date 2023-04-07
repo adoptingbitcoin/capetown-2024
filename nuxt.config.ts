@@ -12,7 +12,7 @@ export default defineNuxtConfig({
     plugins: [
         {
             src: '@/plugins/vue-marquee-slider.js', mode: 'client'
-        },
+        }
     ],
     vue : {
         config: {
@@ -33,7 +33,9 @@ export default defineNuxtConfig({
     googleFonts: {
         download: true,
         families: {
-            Poppins: true,
+            Poppins: {
+                wght: [100, 200, 300, 400],
+            },
         }
     }
 })

@@ -13,12 +13,12 @@
     "sass": "^1.59.3"
   },
   "dependencies": {
-    "@nuxtjs/google-fonts": "^3.0.0",
     "@fortawesome/fontawesome-svg-core": "^6.3.0",
     "@fortawesome/free-brands-svg-icons": "^6.3.0",
     "@fortawesome/free-regular-svg-icons": "^6.3.0",
     "@fortawesome/free-solid-svg-icons": "^6.3.0",
     "@fortawesome/vue-fontawesome": "^3.0.3",
+    "@nuxtjs/google-fonts": "^3.0.0",
     "vue-marquee-slider": "^1.0.6",
     "vue-marquee-text-component": "^2.0.1",
     "vue3-marquee-slider": "^1.0.4"
