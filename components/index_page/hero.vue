@@ -62,6 +62,10 @@
 
 <style scoped lang="scss">
 
+.component{
+    @apply py-0;
+}
+
 .bg-clouds{
     background-image: url("~/assets/img/clouds-header.png");
 }
