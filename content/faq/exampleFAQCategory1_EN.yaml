@@ -3,8 +3,6 @@ language: en
 faq:
   - question: 'Visa'
     answer: 'Check for <a href="https://rree.gob.sv/servicios/visas-para-extranjeros">visa requirements</a> for your own nationality. We will be happy to provide an official invitation letter shall you need one.'
-  - question: 'Covid requirements (Make sure to double check this information before leaving!)'
-    answer: 'Fully vaccinated visitors with approved vaccination certificates do not need to present a negative COVID-19 test. Travelers who are not fully vaccinated must have an original printed negative COVID-19 PCR, NAAT, or LAMP test result. Travelers under the age of 2, travelers with a diplomatic passport and travelers with a COVID-19 vaccination certificate showing they received all doses required are exempted from this requirement.'
   - question: 'Airport'
     answer: 'The nearest airport to the convention center is the El Salvador International Airport in San Salvador (IATA code SAL)'
   - question: 'Ground transportation'
