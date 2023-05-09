@@ -1,0 +1,9 @@
+title: Reservaciones
+language: es
+faq:
+  - question: 'Escalas'
+    answer: 'Si tienes escalas en algún lugar camino a El Salvador, asegúrate de verificar los requisitos y restricciones por Covid en el país/ciudad/estado de tránsito. <a href="https://www.iatatravelcentre.com/world.php">Haz clic aquí para más información.</a>'
+  - question: 'Hoteles y Alojamiento'
+    answer: 'La semana del 16 de noviembre estará llena de eventos bitcoin que se apoderarán de la ciudad, ¡así que reserva tu estadía en el hotel con antelación! Recomendamos las siguientes opciones - <a href="https://www.marriott.com/events/start.mi?id=1631301889596&key=GRP">Sheraton Presidente</a>, <a href="https://booking.barcelo.com/?adult=1&arrive=Wed%20Nov%2017%202021%2012:00:00%20GMT+0000%20(Coordinated%20Universal%20Time)&chain=24876&child=0&configcode=NET&currency=USD&currency_def=USD&depart=Fri%20Nov%2019%202021%2012:00:00%20GMT+0000%20(Coordinated%20Universal%20Time)&filter=CAM&hotel=7299&level=hotel&locale=es-MX&market=CAM&promo=EV21BIT&rooms=1&segment=BED%20AND%20BREAKFAST&themecode=initialTheme&usc=SV&usercurrency=USD">Barcelo</a>. Si eliges reservar un Airbnb, estas son las áreas seguras donde te recomendamos buscar - Colonia San Benito o Colonia Escalón.'
+  - question: 'Reembolsos'
+    answer: 'Las entradas compradas para la conferencia no pueden ser reembolsadas, pero sí es posible transferir las mismas a otra persona. Si deseas transferir tu boleto, envíanos un correo electrónico para que podamos ajustar el nombre de tu credencial para la conferencia.'
