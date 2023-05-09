@@ -1,59 +1,59 @@
 <template>
-    <div class="component relative h-screen">
+    <div class="component relative min-h-screen">
 
-        <div class="bg-clouds w-3/4 h/1/2 top-0 right-0 absolute"></div>
+        <div class="bg-clouds w-full top-0 left-0 h-full absolute bg-blend-lighten z-10"></div>
+        <div class="bg-gradient absolute left-0 bottom-0 w-full h-1/2 z-0"></div>
 
-        <div class="grid grid-cols-3 h-full w-full absolute">
-            <div class=""></div>
-            <div class="hero_img">
-                <div class="h-3/4">
-                    <img src="~/assets/img/hero_img.png" class="h-full w-auto object-cover">
+        <div class="container relative pt-44 md:pt-32 h-full">
+
+            <div class="relative h-full">
+                <div class="grid grid-cols-6 h-full w-full left-0 top-0">
+                    <nuxt-img src="/images/hero_img.png" class="h-auto w-full col-span-4 col-start-2" />
                 </div>
-            </div>
-            <div class=""></div>
-        </div>
 
-        <div class="flex items-center h-full w-full absolute z-10 container mx-auto px-4">
-            <div class="grid grid-cols-4 h-4/6">
-                <div class=""></div>
-                <div class="flex flex-col justify-between">
-                    <div class="">
-                        <h2 class="text-5xl">A Lightning Summit in El Salvador</h2>
+                <div class="grid grid-cols-2 h-full w-full pt-12 md:py-28 absolute top-0 left-0">
+
+
+                    <div class="flex flex-col justify-between h-full">
+                        <div class="">
+                            <h2 class="text-2xl lg:text-4xl">A Lightning Summit <br> in El Salvador</h2>
+                        </div>
+
+                        <div class="font-thin pt-52 z-30">
+                            <a href="https://twitter.com/AdoptingBTC" class="hover:underline" target="_blank">/twitter</a>
+                        </div>
                     </div>
 
-                    <div class="font-thin ">
-                        <a href="#">/twitter</a>
-                        <br>
-                        <a href="#">/instagram</a>
-                    </div>
-                </div>
-                <div class=""></div>
-
-                <div class="m-5">
-                    <div class="text-right">
-                        <span>16 — 18 November 2023</span>
-                        <span>
+                    <div class="flex flex-col justify-between h-full">
+                        <div class="text-right">
+                            <span>7 — 9 November 2023</span>
+                            <br><br>
+                            <span>
                             The Crowne Plaza <br>
                             89 Avenida Norte San Salvador
                         </span>
+                        </div>
+
+                        <div class="w-full">
+                            <TicketPurchase class="float-right z-50 relative" />
+                        </div>
+
+
                     </div>
 
                 </div>
+
             </div>
+
 
 
         </div>
 
 
-        <div class="scroll-text">
-            <img src="~/assets/img/adb.png" alt="">
-<!--            <scrolling-text :showSecond="false">-->
-<!--                <div class="text-7xl inline-block bg-transparent">-->
-<!--                    <crazy-text text="Adopting" element="h4" class="inline-block"/>-->
-<!--                    <font-awesome-icon icon="fa-solid fa-bolt"/>-->
-<!--                    <crazy-text text="Bitcoin" element="h4" class="inline-block"/>-->
-<!--                </div>-->
-<!--            </scrolling-text>-->
+
+
+        <div class="hero-text invisible lg:visible ">
+            <StraightBanner topImage="/images/section-heading--hero.svg" class="w-full"/>
         </div>
 
 
@@ -64,32 +64,22 @@
 
 .component{
     @apply py-0;
+    background-color: #252525;
 }
 
-.bg-clouds{
-    background-image: url("~/assets/img/clouds-header.png");
-}
-
-.scroll-text {
+.hero-text {
   background-color: transparent;
-  position: absolute;
+    position: absolute;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
   display: flex;
   align-items: center;
-    img{
-        width: 100%;
-    }
 }
 
-.hero_img {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.bg-gradient{
+    background: linear-gradient(180deg, #252525 0%, #000000 100%);
 }
 
 </style>

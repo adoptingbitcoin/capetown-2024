@@ -1,38 +1,26 @@
 <template>
-  <div class="">
+  <div class="component">
 
-      <div class="adb-is-back w-full">
-          <img src="~/assets/img/adb-is-back.png">
-      </div>
+      <AngledBanner topImage="/images/section-heading--back-in-sv.svg" bottomImage="/images/section-heading--back-in-sv.svg" />
 
       <div class="container mx-auto px-4">
-
-          <div class="grid grid-cols-2">
+          <div class="grid md:grid-cols-2">
               <div class=""></div>
               <div class="">
+                  <client-only>
                   <p>
-                  The Bitcoin Law leveled the playing field between Bitcoin and the Dollar in El Salvador. Salvadorans went from 70% unbanked to having the option of using Bitcoin as money.
-</p> <br>
-<p>
-                  This novel situation comes with both, the challenge to onboard users, and the opportunity to learn from them for the benefit of the entire ecosystem - from protocol and application devs to entrepreneurs and investors.
+                      <FadeInText text="El Salvador is the first country to adopt Bitcoin, making it the ground-zero for global Bitcoin adoption." />
                   </p>
+                  <br>
+                  <p>
+                      <FadeInText text="This novel situation presents both the challenge of onboarding users and the opportunity to learn from them, benefiting the entire ecosystem, from protocol and application developers to entrepreneurs, investors, and the many communities around the world that followed Bitcoin Beach's example by establishing circular Bitcoin economies." />
+                  </p>
+                  </client-only>
               </div>
           </div>
 
       </div>
-
-
-
   </div>
 </template>
-
-<style scoped lang="scss">
-.adb-is-back {
-    img {
-        width: 100%;
-        height: auto;
-    }
-}
-</style>
 <script setup lang="ts">
 </script>

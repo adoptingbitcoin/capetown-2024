@@ -1,0 +1,61 @@
+stages:
+  - test
+  - build
+  - deploy
+
+build:
+  image: node:16
+  stage: build
+  cache:
+    key:
+      files:
+        - yarn.lock
+    paths:
+      - node_modules
+  script:
+    - set -e
+    - yarn install --frozen-lockfile
+    - yarn build --fail-on-error
+  artifacts:
+    expire_in: 1 day
+    paths:
+      - .output
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'
+    - if: '$CI_COMMIT_BRANCH == "staging"'
+
+.deploy:
+  stage: deploy
+  image: eeacms/rsync:2.3
+  artifacts:
+    expire_in: 1 day
+    paths:
+      - .output
+  script:
+    - chmod 400 $SSH_KEY
+    - rsync -Pavp --delete --rsh="ssh -p ${SSH_PORT} -i ${SSH_KEY} -o StrictHostKeyChecking=no" ${CI_PROJECT_DIR}/.output/public/* ${SSH_USER}@${SSH_IP}:/home/adopotvj/${DEPLOY_PATH}
+
+deploy_staging:
+  extends:
+    - .deploy
+  variables:
+    DEPLOY_PATH: "staging.adoptingbitcoin.org/2023"
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "staging"'
+
+purge_cache:
+  image: curlimages/curl:7.78.0
+  stage: .post
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'
+    - if: '$CI_COMMIT_BRANCH == "staging"'
+  script:
+    - |
+      set -e
+      curl -X "POST" "https://api.cloudflare.com/client/v4/zones/${CF_ZONE}/purge_cache" \
+           -H "Authorization: Bearer ${CF_PURGE_KEY}" \
+           -H 'Content-Type: application/json' \
+           --fail-with-body \
+           -d $'{
+        "purge_everything": true
+      }'

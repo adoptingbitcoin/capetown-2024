@@ -1,17 +1,20 @@
 <template>
-  <div>
-    <hero />
-    <intro />
-    <location_carousel />
-    <location />
-    <schedule />
-    <img src="~/assets/img/speakers-img.png" alt="" class="w-full h-auto">
-    <speakers />
-    <sponsors_call />
-    <tickets />
-      <sponsors />
-    <people />
-  </div>
+    <div>
+        <navbar />
+        <hero class="pt-52"/>
+        <intro/>
+<!--        <location_carousel/>-->
+        <location id="venue"/>
+<!--        <schedule/>-->
+        <img loading="lazy" src="/images/speakers_img.gif" alt="" class="w-full h-auto"/>
+        <speakers/>
+        <tickets id="ticket"/>
+        <sponsors />
+        <sponsors_call/>
+        <people />
+        <footer_component />
+
+    </div>
 </template>
 
 <script>
@@ -26,13 +29,16 @@ import Sponsors_call from "../components/index_page/sponsors_call";
 import Tickets from "../components/index_page/tickets";
 import Sponsors from "~/components/index_page/sponsors.vue";
 import People from "~/components/index_page/people.vue";
+import Navbar from "~/components/index_page/navbar.vue";
+import Footer_component from "~/components/footer_component.vue";
+
 export default {
-  components: {
-      People,
-      Sponsors, Tickets, Sponsors_call, Speakers, Schedule, Intro, Hero, Location, Location_carousel}
+    components: {
+        Footer_component,
+        Navbar,
+        People,
+        Sponsors, Tickets, Sponsors_call, Speakers, Schedule, Intro, Hero, Location, Location_carousel
+    }
 }
 
 </script>
-
-<style>
-</style>
