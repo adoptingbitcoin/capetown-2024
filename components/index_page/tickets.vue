@@ -21,7 +21,7 @@
 
       </div>
       
-      <div class="tickets my-5">
+      <div class="tickets mt-5">
           <a href="https://pretix.eu/galoy/ab23/" target="_blank">
               <TicketBanner top-image="/images/assets/tickets/tickets-row-1_a.svg" bottom-image="/images/assets/tickets/tickets-row-2_a.svg" class="w-full"/>
           </a>
@@ -34,7 +34,7 @@
 .component {
   background-color: #EEDB5F;
   color: black;
-    @apply pt-0;
+    @apply py-0;
 }
 img {
   @apply w-full h-auto my-3;

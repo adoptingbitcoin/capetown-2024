@@ -39,6 +39,7 @@
 <style scoped>
 .component {
   background-color: #252525;
+    @apply py-0;
 }
 
 .sponsor-img {

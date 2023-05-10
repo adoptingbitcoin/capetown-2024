@@ -1,7 +1,7 @@
 <template>
 
     <div class="">
-        <div class="nav absolute w-full top-0 left-0 h-fit py-10">
+        <div class="nav absolute w-full top-0 left-0 h-fit py-10" :class="{'menuOpen': menuOpen}">
             <div class="container flex justify-between">
                 <nuxt-link to="/" class="">
                     <nuxt-img class="logo" src="/images/logo.svg"/>
@@ -68,6 +68,11 @@ export default {
 .nav {
   z-index: 9999;
 }
+
+.menuOpen{
+    @apply fixed;
+}
+
 .logo {
   @apply z-10 h-full w-auto;
 }
@@ -81,7 +86,7 @@ export default {
 
   a {
     z-index: 99999;
-    @apply text-xl my-1 md:my-0 md:text-4xl hover:underline text-white;
+    @apply text-lg my-1 md:my-0 md:text-4xl hover:underline text-white;
   }
 }
 </style>
