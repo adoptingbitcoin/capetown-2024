@@ -6,9 +6,9 @@ import Speakers from "~/components/index_page/speakers.vue";
 const route = useRoute()
 const { data } = await useAsyncData('speaker'+route.path+process.env.CACHE_KEY, () => queryContent(route.path).findOne())
 
-useHead({
-    title: data.title,
-})
+// useHead({
+//     title: data.title,
+// })
 
 </script>
 
