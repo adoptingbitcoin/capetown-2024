@@ -1,5 +1,9 @@
 <template>
     <div>
+        <Head>
+            <Title>Adopting Bitcoin 2023</Title>
+        </Head>
+
         <navbar />
         <hero class="pt-52"/>
         <intro/>
@@ -40,5 +44,4 @@ export default {
         Sponsors, Tickets, Sponsors_call, Speakers, Schedule, Intro, Hero, Location, Location_carousel
     }
 }
-
 </script>

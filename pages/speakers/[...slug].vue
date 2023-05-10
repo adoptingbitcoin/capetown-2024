@@ -6,14 +6,13 @@ import Speakers from "~/components/index_page/speakers.vue";
 const route = useRoute()
 const { data } = await useAsyncData('speaker'+route.path+process.env.CACHE_KEY, () => queryContent(route.path).findOne())
 
-// useHead({
-//     title: data.title,
-// })
-
 </script>
 
 <template>
     <div class="component bg-clouds">
+        <Head>
+            <Title>{{data.title}}</Title>
+        </Head>
         <navbar />
 <div class="pt-12 md:pt-0">
     <StraightBanner top-image="images/section-heading--single-speaker.svg" class="pb-0 md:pb-12" />
