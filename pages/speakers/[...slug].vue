@@ -25,6 +25,10 @@ const { data } = await useAsyncData('speaker'+route.path+process.env.CACHE_KEY, 
             <div class="">
                 <div class="w-full md:w-3/4 mx-auto relative">
                     <nuxt-img :src="'/images/speakers/' + data.img" class="mx-auto w-full h-auto p-12" />
+            <div class="absolute bottom-0 right-0">
+                <TicketPurchase />
+            </div>
+
                 </div>
             </div>
 
@@ -33,7 +37,6 @@ const { data } = await useAsyncData('speaker'+route.path+process.env.CACHE_KEY, 
                 <div class="md:ml-16 mt-2">
                     <ContentDoc />
                 </div>
-                <TicketPurchase />
 
             </div>
 
