@@ -34,7 +34,7 @@ const { data } = await useAsyncData('speaker'+route.path+process.env.CACHE_KEY, 
 
             <div class="md:pt-5">
                 <h1 class="text-3xl">{{data.title}}</h1>
-                <div class="md:ml-16 mt-2">
+                <div class="md:ml-16 mt-2 mb-12">
                     <ContentDoc />
                 </div>
 
