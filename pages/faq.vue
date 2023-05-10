@@ -45,7 +45,7 @@ import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
 import _groupBy from "lodash/groupBy";
 
 let faqItemOpen = ref({})
-const { data } = await useAsyncData('faq', () => queryContent('/faq').where({ language: 'en' }).only(['_path', 'title', 'faq']).find())
+const { data } = await useAsyncData('faq'+process.env.CACHE_KEY, () => queryContent('/faq').where({ language: 'en' }).only(['_path', 'title', 'faq']).find())
 
 const toggleItem = function (item) {
     faqItemOpen[item] = !faqItemOpen[item]

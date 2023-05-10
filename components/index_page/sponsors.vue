@@ -50,8 +50,8 @@
 
 
 <script setup>
-const data = await useAsyncData('sponsors', () => queryContent('/sponsors').only(['_path', 'title', 'url', 'img']).find()).data
-const mediaPartners = await useAsyncData('media-partners', () => queryContent('/media-partners').only(['_path', 'title', 'url', 'img']).find()).data
+const data = await useAsyncData('sponsors'+process.env.CACHE_KEY, () => queryContent('/sponsors').only(['_path', 'title', 'url', 'img']).find()).data
+const mediaPartners = await useAsyncData('media-partners'+process.env.CACHE_KEY, () => queryContent('/media-partners').only(['_path', 'title', 'url', 'img']).find()).data
 </script>
 
 <script>

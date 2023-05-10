@@ -47,7 +47,7 @@ import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
 
 let uncollapsed = ref({})
 
-const { data } = await useAsyncData('team', () => queryContent('/team').only(['_path', 'title', 'team', 'function', 'img', 'url']).find())
+const { data } = await useAsyncData('team'+process.env.CACHE_KEY, () => queryContent('/team').only(['_path', 'title', 'team', 'function', 'img', 'url']).find())
 
 const teamData = computed(() => {
     let teamData = _groupBy(data.value, data => data['team'])

@@ -12,6 +12,8 @@ build:
         - yarn.lock
     paths:
       - node_modules
+  variables:
+    CACHE_KEY: "$CI_COMMIT_SHA"
   script:
     - set -e
     - yarn install --frozen-lockfile

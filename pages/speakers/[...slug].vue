@@ -4,7 +4,7 @@ import Navbar from "~/components/index_page/navbar.vue";
 import Speakers from "~/components/index_page/speakers.vue";
 
 const route = useRoute()
-const { data } = await useAsyncData(() => queryContent(route.path).findOne())
+const { data } = await useAsyncData('speaker'+route.path+process.env.CACHE_KEY, () => queryContent(route.path).findOne())
 
 </script>
 

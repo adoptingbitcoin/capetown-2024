@@ -54,7 +54,7 @@
 import range from "lodash/range";
 import _groupBy from "lodash/groupBy";
 
-const { data } = await useAsyncData('speakers', () => queryContent('/speakers').only(['_path', 'title', 'company', 'img']).sort({title: 1}).find())
+const { data } = await useAsyncData('speakers'+process.env.CACHE_KEY, () => queryContent('/speakers').only(['_path', 'title', 'company', 'img']).sort({title: 1}).find())
 const speakerData = computed(() => {
     return _groupBy(data.value, data => data['title'][0]) //group by first letter of name
 })
