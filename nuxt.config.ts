@@ -72,6 +72,9 @@ export default defineNuxtConfig({
             htmlAttrs: {
                 lang: 'en'
             }
-        }
+        },
     },
+    experimental: {
+        payloadExtraction: false,
+    }
 })
