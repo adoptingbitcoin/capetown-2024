@@ -1,7 +1,15 @@
-title: During the conference
+title: Supporting the Event
 language: en
 faq:
-  - question: 'Dietary requirements'
-    answer: 'If you have any dietary restrictions or allergies please do communicate them with us in advance.'
-  - question: 'Photography'
-    answer: 'Only with your explicit consent. There will be a seamless way to signal consent or dissent for attendees with colored conference badges.'
+  - question: 'Sponsor'
+    answer: 'If you’d like to talk about sponsoring the event, please reach out to info@adoptingbitcoin.org, ping Noor / Kemal directly on Telegram or leave your contact information in <a href="https://docs.google.com/forms/d/e/1FAIpQLSeJq-mUSaNt2MAw3mJcsKCYAXcMPbU6VkrRvaad2vbKpmwJWw/viewform">this form</a> '
+  - question: 'Volunteer'
+    answer: 'Let us know on telegram if you’d like to volunteer some of your time during the conference, or drop us an email'
+  - question: 'Hacker Space'
+    answer: 'There will be a #reckless room with hackers and tinkerers, impromptu talks, prototypes, ad-hoc demos and unconference / barcamp style participant-driven meetings. Join the <a href=https://t.me/bitcoinhacktable>Hacktable chat on telegram</a> and connect with the Lightning hackers'
+  - question: 'Satellite Event'
+    answer: '<a href=mailto:info@adoptingbitcoin.org>Write to us</a> if you’re organizing a satellite event and let us know, so it doesn’t conflict with any other, and we’ll make sure to communicate about it.'
+  - question: 'Network'
+    answer: 'Feel free to use the <a href="https://t.me/AdoptingBTC">telegram</a> group to communicate with participants before and during the conference, or ask us questions.'
+  - question: 'Bitcoin Twitter'
+    answer: 'Tweet about it the event! Use the hashtag #ab23 for better discoverability'
