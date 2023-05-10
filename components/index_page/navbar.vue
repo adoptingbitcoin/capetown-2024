@@ -8,22 +8,26 @@
                 </nuxt-link>
 
                 <div class="flex items-center">
-                    <nuxt-link to="https://talks.adoptingbitcoin.org" class="underline mb-2 mr-12 hidden md:block" target="_blank">Call for participation</nuxt-link>
-                <a v-on:click="menuOpen = !menuOpen" class="h-18 w-18 cursor-pointer">
-                    <div class="m-auto" :class="menuOpen ? 'hidden' : 'visible'">
-                        <span class="material-symbols-outlined text-5xl">drag_handle</span>
-                    </div>
+                    <nuxt-link to="https://talks.adoptingbitcoin.org" class="underline mb-2 mr-12 hidden md:block"
+                               target="_blank">Call for participation
+                    </nuxt-link>
+                    <a v-on:click="menuOpen = !menuOpen" class="h-18 w-18 cursor-pointer">
+                        <div class="m-auto" :class="menuOpen ? 'hidden' : 'visible'">
+                            <span class="material-symbols-outlined text-5xl">drag_handle</span>
+                        </div>
 
-                    <div class="m-auto" :class="menuOpen ? 'visible' : 'hidden'">
-                        <span class="material-symbols-outlined text-5xl">close</span>
-                    </div>
-                </a>
+                        <div class="m-auto" :class="menuOpen ? 'visible' : 'hidden'">
+                            <span class="material-symbols-outlined text-5xl">close</span>
+                        </div>
+                    </a>
                 </div>
             </div>
             <div class="w-full md:hidden flex justify-between">
-            <div class="mx-auto mt-5">
-                <nuxt-link to="https://talks.adoptingbitcoin.org" class="underline" target="_blank">Call for participation</nuxt-link>
-            </div>
+                <div class="mx-auto mt-5">
+                    <nuxt-link to="https://talks.adoptingbitcoin.org" class="underline" target="_blank">Call for
+                        participation
+                    </nuxt-link>
+                </div>
 
             </div>
 
@@ -38,10 +42,11 @@
                     <nuxt-link to="/#speakers" v-on:click="menuOpen = false">speakers</nuxt-link>
                     <nuxt-link to="/#ticket" v-on:click="menuOpen = false">ticket</nuxt-link>
                     <nuxt-link to="/#sponsors" v-on:click="menuOpen = false">sponsors</nuxt-link>
-                    <nuxt-link to="/#media-partners" v-on:click="menuOpen = false">media partners</nuxt-link>
+                    <nuxt-link to="/#partners" v-on:click="menuOpen = false">partners</nuxt-link>
                     <nuxt-link to="/#team" v-on:click="menuOpen = false">team</nuxt-link>
 
-                    <nuxt-link to="https://www.bitcoinerevents.com/bitcoin-month/" target="_blank">Bitcoin Month</nuxt-link>
+                    <nuxt-link to="https://www.bitcoinerevents.com/bitcoin-month/" target="_blank">Bitcoin Month
+                    </nuxt-link>
                     <nuxt-link to="https://talks.adoptingbitcoin.org" target="_blank">Call for Participation</nuxt-link>
                     <nuxt-link to="/faq">FAQ</nuxt-link>
                 </div>
@@ -69,20 +74,20 @@ export default {
   z-index: 9999;
 }
 
-.menuOpen{
-    @apply fixed;
+.menuOpen {
+  @apply fixed;
 }
 
 .logo {
   @apply z-10 h-full w-auto;
 }
 
-.nav-overlay{
+.nav-overlay {
   background-color: #252525;
   z-index: 9998;
 }
 
-.menu-links{
+.menu-links {
 
   a {
     z-index: 99999;

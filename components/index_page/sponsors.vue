@@ -15,16 +15,16 @@
             </div>
         </div>
 
-        <div class="container py-36" id="media-partners">
-            <h3 class="uppercase text-sm mb-5">/media partners</h3>
+        <div class="container py-36" id="partners">
+            <h3 class="uppercase text-sm mb-5">/partners</h3>
             <div class="grid md:grid-cols-2 gap-4">
-                <div v-for="partner in mediaPartners" @mouseover="mouseover"
+                <div v-for="partner in partners" @mouseover="mouseover"
                      @mouseleave="mouseleave" :data-image="partner.img">
                     <nuxt-link :to="partner.url" target="_blank" :data-image="partner.img">
                         <div class="flex justify-between hover:text-adoptingYellow border-b" :data-image="partner.img">
                             {{ partner.title }}
                             <nuxt-img src="/images/arrow-top-right.svg" :data-image="partner.img"/>
-                            <nuxt-img :src="'/images/media-partners/' + partner.img" :data-image="partner.img"
+                            <nuxt-img :src="'/images/partners/' + partner.img" :data-image="partner.img"
                                       class="hidden"/>
                         </div>
                     </nuxt-link>
@@ -40,13 +40,13 @@
 
 <style scoped>
 .component {
-  background-color: #252525;
-  @apply py-0;
+    background-color: #252525;
+    @apply py-0;
 }
 
 .sponsor-img {
-  width: 250px;
-  max-height: 250px;
+    width: 250px;
+    max-height: 250px;
 }
 
 </style>
@@ -54,7 +54,7 @@
 
 <script setup>
 const data = await useAsyncData('sponsors' + process.env.CACHE_KEY, () => queryContent('/sponsors').find()).data
-const mediaPartners = await useAsyncData('media-partners' + process.env.CACHE_KEY, () => queryContent('/media-partners').find()).data
+const partners = await useAsyncData('partners' + process.env.CACHE_KEY, () => queryContent('/partners').find()).data
 </script>
 
 <script>
@@ -74,8 +74,8 @@ export default {
         mouseover: function (event) {
             let img = event.target.getAttribute('data-image')
             this.showHoverImage = true
-            if (img && '/images/media-partners/' + img !== this.hoverImage) {
-                this.hoverImage = '/images/media-partners/' + img
+            if (img && '/images/partners/' + img !== this.hoverImage) {
+                this.hoverImage = '/images/partners/' + img
             }
         }
     }
