@@ -5,17 +5,13 @@
         <AngledBanner top-image="images/section-heading--faq.svg" />
 
         <div class="container">
-
             <div class="mb-36" v-for="item in data">
                 <h2 class="text-3xl my-5">{{item.title}}</h2>
-
                 <div class="" v-for="faqItem in item.faq">
                     <CollapseItem :title="faqItem.question">
                         <div v-html="faqItem.answer"></div>
                     </CollapseItem>
                 </div>
-
-
             </div>
         </div>
 

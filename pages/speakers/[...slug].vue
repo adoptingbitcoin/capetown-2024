@@ -6,41 +6,46 @@ import Speakers from "~/components/index_page/speakers.vue";
 const route = useRoute()
 const { data } = await useAsyncData('speaker'+route.path+process.env.CACHE_KEY, () => queryContent(route.path).findOne())
 
+useHead({
+    title: data.value.title,
+})
+
 </script>
 
 <template>
     <div class="component bg-clouds">
         <navbar />
+<div class="pt-12 md:pt-0">
+    <StraightBanner top-image="images/section-heading--single-speaker.svg" class="pb-0 md:pb-12" />
 
-        <StraightBanner top-image="images/section-heading--single-speaker.svg" />
+    <div class="container md:pb-36">
 
-        <div class="container pb-36">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
 
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-
-                <div class="">
-                        <div class="w-3/4 mx-auto relative">
-                            <nuxt-img :src="'/images/speakers/' + data.img" class="mx-auto w-full h-auto p-12" />
-                            <TicketPurchase class="absolute left-0 bottom-0" />
-                        </div>
-
+            <div class="">
+                <div class="w-full md:w-3/4 mx-auto relative">
+                    <nuxt-img :src="'/images/speakers/' + data.img" class="mx-auto w-full h-auto p-12" />
                 </div>
+            </div>
 
-                <div class="pt-5">
-                    <h1 class="text-3xl">{{data.title}}</h1>
-                    <div class="ml-16">
-                        <ContentDoc />
-                    </div>
-
+            <div class="md:pt-5">
+                <h1 class="text-3xl">{{data.title}}</h1>
+                <div class="md:ml-16 mt-2">
+                    <ContentDoc />
                 </div>
+                <TicketPurchase />
 
             </div>
 
         </div>
 
-        <Speakers />
+    </div>
 
-        <footer_component />
+    <Speakers />
+
+    <footer_component />
+</div>
+
 
     </div>
 
