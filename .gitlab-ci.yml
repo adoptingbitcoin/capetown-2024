@@ -64,6 +64,7 @@ purge_cache:
       set -e
       curl -X "POST" "https://api.cloudflare.com/client/v4/zones/${CF_ZONE}/purge_cache" \
            -H "Authorization: Bearer ${CF_PURGE_KEY}" \
+           -H "X-Auth-Email: ${CF_EMAIL}" \
            -H 'Content-Type: application/json' \
            --fail-with-body \
            -d $'{

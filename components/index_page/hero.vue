@@ -8,7 +8,7 @@
 
             <div class="relative h-full">
                 <div class="grid grid-cols-6 h-full w-full left-0 top-0">
-                    <nuxt-img src="/images/hero_img.png" class="h-auto w-full col-span-4 col-start-2" />
+                    <nuxt-img src="/images/hero_img.png" class="h-auto w-full col-span-4 col-start-2"/>
                 </div>
 
                 <div class="grid grid-cols-2 h-full w-full pt-12 md:py-28 absolute top-0 left-0">
@@ -16,11 +16,12 @@
 
                     <div class="flex flex-col justify-between h-full">
                         <div class="">
-                            <h2 class="text-2xl lg:text-4xl">A Lightning Summit <br> in El Salvador</h2>
+                            <h2 class="text-2xl lg:text-4xl">A Lightning Summit <br> in Cape Town</h2>
                         </div>
 
                         <div class="font-thin pt-52 z-30">
-                            <a href="https://twitter.com/AdoptingBTC" class="hover:underline" target="_blank">/twitter</a>
+                            <a href="https://twitter.com/AdoptingBTC" class="hover:underline"
+                               target="_blank">/twitter</a>
                         </div>
                     </div>
 
@@ -35,7 +36,7 @@
                         </div>
 
                         <div class="w-full">
-                            <TicketPurchase class="float-right z-50 relative" />
+                            <TicketPurchase class="float-right z-50 relative"/>
                         </div>
 
 
@@ -46,10 +47,7 @@
             </div>
 
 
-
         </div>
-
-
 
 
         <div class="hero-text invisible lg:visible ">
@@ -62,14 +60,14 @@
 
 <style scoped lang="scss">
 
-.component{
-    @apply py-0;
-    background-color: #252525;
+.component {
+  @apply py-0;
+  background-color: #252525;
 }
 
 .hero-text {
   background-color: transparent;
-    position: absolute;
+  position: absolute;
   top: 0;
   left: 0;
   height: 100%;
@@ -78,8 +76,8 @@
   align-items: center;
 }
 
-.bg-gradient{
-    background: linear-gradient(180deg, #252525 0%, #000000 100%);
+.bg-gradient {
+  background: linear-gradient(180deg, #252525 0%, #000000 100%);
 }
 
 </style>
