@@ -1,7 +1,7 @@
 <template>
     <div>
         <Head>
-            <Title>Adopting Bitcoin 2023</Title>
+            <Title>Adopting Bitcoin 2024</Title>
         </Head>
         <navbar/>
         <hero class="pt-52"/>

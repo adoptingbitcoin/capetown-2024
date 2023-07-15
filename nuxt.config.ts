@@ -24,7 +24,7 @@ export default defineNuxtConfig({
             src: '@/plugins/aos.js', mode: 'client'
         }
     ],
-    vue : {
+    vue: {
         config: {
             productionTip: false,
             devtools: true
@@ -55,19 +55,24 @@ export default defineNuxtConfig({
         baseURL: process.env.DIR,
         rootDir: process.env.DIR,
         head: {
-            title: 'Adopting Bitcoin 2023',
+            title: 'Adopting Bitcoin 2024',
             meta: [
-                { charset: 'utf-8' },
-                { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-                { name: 'google', content: 'notranslate' },
-                { "http-equiv": 'Content-Language', content: 'en' },
+                {charset: 'utf-8'},
+                {name: 'viewport', content: 'width=device-width, initial-scale=1'},
+                {name: 'google', content: 'notranslate'},
+                {"http-equiv": 'Content-Language', content: 'en'},
             ],
             link: [
-                { rel: 'icon', type: 'image/png', sizes: '16x16', href: process.env.DIR+'favicon/favicon-16x16.png' },
-                { rel: 'icon', type: 'image/png', sizes: '32x32', href: process.env.DIR+'favicon/favicon-32x32.png' },
-                { rel: 'apple-touch-icon', type: 'image/png', sizes: '180x180', href: process.env.DIR+'/favicon/apple-touch-icon.png' },
-                { rel: 'mask-icon', color:'#000000', href: process.env.DIR+'favicon/safari-pinned-tab.svg' },
-                { rel: 'manifest', href: process.env.DIR+'favicon/site.webmanifest' },
+                {rel: 'icon', type: 'image/png', sizes: '16x16', href: process.env.DIR + 'favicon/favicon-16x16.png'},
+                {rel: 'icon', type: 'image/png', sizes: '32x32', href: process.env.DIR + 'favicon/favicon-32x32.png'},
+                {
+                    rel: 'apple-touch-icon',
+                    type: 'image/png',
+                    sizes: '180x180',
+                    href: process.env.DIR + '/favicon/apple-touch-icon.png'
+                },
+                {rel: 'mask-icon', color: '#000000', href: process.env.DIR + 'favicon/safari-pinned-tab.svg'},
+                {rel: 'manifest', href: process.env.DIR + 'favicon/site.webmanifest'},
             ],
             htmlAttrs: {
                 lang: 'en'

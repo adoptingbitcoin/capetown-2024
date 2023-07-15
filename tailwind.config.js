@@ -10,7 +10,7 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                adoptingYellow: "#EEDB5F",
+                adoptingYellow: "#FFBD5A",
             },
             rotate: {
                 '5': '5deg',

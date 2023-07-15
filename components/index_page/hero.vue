@@ -27,11 +27,11 @@
 
                     <div class="flex flex-col justify-between h-full">
                         <div class="text-right">
-                            <span>7 — 9 November 2023</span>
+                            <span>25 - 27 January 2024</span>
                             <br><br>
                             <span>
-                            The Crowne Plaza <br>
-                            89 Avenida Norte San Salvador
+                            Cape Town, South Africa <br>
+                            CITC Conference Center
                         </span>
                         </div>
 

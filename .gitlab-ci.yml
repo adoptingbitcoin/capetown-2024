@@ -41,7 +41,7 @@ deploy_staging:
   extends:
     - .deploy
   variables:
-    DEPLOY_PATH: "staging.adoptingbitcoin.org/capetown-2023"
+    DEPLOY_PATH: "staging.adoptingbitcoin.org/capetown-2024"
   rules:
     - if: '$CI_COMMIT_BRANCH == "staging"'
 
@@ -49,7 +49,7 @@ deploy_main:
   extends:
     - .deploy
   variables:
-    DEPLOY_PATH: "public_html/capetown-2023"
+    DEPLOY_PATH: "public_html/capetown-2024"
   rules:
     - if: '$CI_COMMIT_BRANCH == "main"'
 

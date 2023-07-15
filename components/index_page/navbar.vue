@@ -79,7 +79,7 @@ export default {
 }
 
 .logo {
-  @apply z-10 h-full w-auto;
+  @apply z-10 h-16 w-auto;
 }
 
 .nav-overlay {
