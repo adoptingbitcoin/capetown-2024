@@ -6,7 +6,16 @@ export default defineNuxtConfig({
         '@nuxtjs/google-fonts',
         '@nuxt/image-edge',
         '@nuxt/content',
+        'nuxt-swiper'
     ],
+
+    swiper: {
+        // Swiper options
+        //----------------------
+        // prefix: 'Swiper',
+        // styleLang: 'css',
+        modules: ['navigation', 'pagination'], // all modules are imported by default
+    },
 
     features: {
         transitions: true,

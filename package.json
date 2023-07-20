@@ -23,6 +23,7 @@
     "@nuxtjs/google-fonts": "^3.0.0",
     "aos": "^2.3.4",
     "lodash": "^4.17.21",
+    "nuxt-swiper": "^1.2.0",
     "vue-collapsed": "^1.1.2",
     "vue-marquee-slider": "^1.0.6",
     "vue-marquee-text-component": "^2.0.1",
