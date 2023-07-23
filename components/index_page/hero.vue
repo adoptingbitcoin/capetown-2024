@@ -31,7 +31,7 @@
                             <br><br>
                             <span>
                             Cape Town, South Africa <br>
-                            CTITCC Cape Town International Conference Centre
+                            CTICC Cape Town International Conference Centre
                         </span>
                         </div>
 
