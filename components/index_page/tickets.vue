@@ -18,14 +18,14 @@
                         website to stay informed.
                     </p>
                     <br><br>
-                    <a class="uppercase" target="_blank" href="https://pretix.eu/galoy/ab23/">Book Now</a>
+                    <a class="uppercase" target="_blank" href="https://pretix.eu/machankura/ab24capetown/">Book Now</a>
                 </div>
             </div>
 
         </div>
 
         <div class="tickets mt-5">
-            <a href="https://pretix.eu/galoy/ab23/" target="_blank">
+            <a href="https://pretix.eu/machankura/ab24capetown/" target="_blank">
                 <TicketBanner top-image="/images/assets/tickets/tickets-row-1.svg"
                               bottom-image="/images/assets/tickets/tickets-row-2.svg" class="w-full"/>
             </a>
