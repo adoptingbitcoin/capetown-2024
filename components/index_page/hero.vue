@@ -27,11 +27,11 @@
 
                     <div class="flex flex-col justify-between h-full">
                         <div class="text-right">
-                            <span>25 - 27 January 2024</span>
+                            <span>26 - 28 January 2024</span>
                             <br><br>
                             <span>
                             Cape Town, South Africa <br>
-                            CITC Conference Center
+                            CTITCC Cape Town International Conference Centre
                         </span>
                         </div>
 
