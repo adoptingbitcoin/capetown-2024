@@ -26,40 +26,14 @@
 
 
         </div>
+        <div class="hidden md:block">
+            <BlogSlider slides-per-view="2.5"/>
+        </div>
+        <div class="md:hidden">
+            <BlogSlider slides-per-view="1.5"/>
+        </div>
 
-        <Swiper :slides-per-view="2.5"
-                :grab-cursor="true">
-
-            <SwiperSlide v-for="item in data">
-                <a :href="item.url" target="_blank">
-                    <div class="rounded-lg shadow-lg overflow-hidden">
-                        <div class="px-6 py-8 md:p-10">
-                            <div class="flex justify-center">
-                                <nuxt-img :src="'/images/blog/' + item.img"
-                                          :data-image="'/images/blog/' + item.img"/>
-                            </div>
-                            <div class="mt-4">
-                                <div class="grid grid-cols-4">
-
-                                    <div class="col-span-1">
-                                        <span class="text-white">{{ 1 }}</span>
-                                        <span class="text-gray-500 text-xs"> /{{ 5 }}</span>
-                                    </div>
-                                    <div class="col-span-3">
-                                        <span class="text-white">{{ item.description }}</span>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </SwiperSlide>
-        </Swiper>
     </div>
 </template>
 <script setup lang="ts">
-import CarouselItem from "~/components/CarouselItem.vue";
-
-const {data} = await useAsyncData('blog' + process.env.CACHE_KEY, () => queryContent('/blog').find())
 </script>

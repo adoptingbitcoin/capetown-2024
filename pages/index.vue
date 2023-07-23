@@ -10,7 +10,7 @@
         <location id="venue"/>
 
         <!--        <schedule/>-->
-        <img alt="" class="w-full h-auto" loading="lazy" src="/images/speakers_img.gif"/>
+        <img alt="" class="w-full h-auto" loading="lazy" src="/images/AB24.gif"/>
         <speakers/>
         <tickets id="ticket"/>
         <sponsors/>
