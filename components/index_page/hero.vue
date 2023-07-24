@@ -16,7 +16,7 @@
 
                     <div class="flex flex-col justify-between h-full">
                         <div class="">
-                            <h2 class="text-2xl lg:text-4xl">A Lightning Summit <br> in Cape Town</h2>
+                            <h2 class="text-2xl lg:text-4xl">A Bitcoin Conference <br> in Cape Town</h2>
                         </div>
 
                         <div class="font-thin pt-52 z-30">
