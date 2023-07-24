@@ -32,7 +32,7 @@
                 </div>
                 <div class="px-4 flex flex-col-reverse">
                     <div class="pb-20 xl:mt-14">
-                        <h5 class="text-4xl py-3">Ballroom West, CTICC 1, Convention Square, 1 Lower Long Street, Cape Town, 8001, South Africa</h5>
+                        <h5 class="text-4xl py-3">In the Heart of Cape Town</h5>
                         <p class="font-thin">
                             Join us for the Adopting Bitcoin 2024 Cape Town, held at the Ballroom West, CTICC 1.
                             This vibrant venue is just a stone's throw away from major attractions like Table Mountain,
