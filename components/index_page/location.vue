@@ -26,21 +26,21 @@
         <div class="container mx-auto px-4 z-20 relative mt-32">
             <div class="grid md:grid-cols-2">
                 <div class="py-5">
-                    <nuxt-img loading="lazy" src="/images/venue.jpg"
+                    <nuxt-img loading="lazy" src="/images/cticc.png"
                               class="max-w-full max-h-80vh w-1/2 z-20 mx-auto relative"
                               alt=""/>
                 </div>
                 <div class="px-4 flex flex-col-reverse">
                     <div class="pb-20 xl:mt-14">
-                        <h5 class="text-4xl py-3">Cape Town, where Bitcoin meets paradise!</h5>
+                        <h5 class="text-4xl py-3">Ballroom West, CTICC 1, Convention Square, 1 Lower Long Street, Cape Town, 8001, South Africa</h5>
                         <p class="font-thin">
-                            Indulge in the vibrant culture, breathtaking landscapes, and warm hospitality of Cape Town—a
-                            cosmopolitan city that perfectly harmonizes natural beauty with technological innovation.
-                            Experience the allure of South Africa's majestic coastal scenery while immersing yourself in
-                            the future of finance.
+                            Join us for the Adopting Bitcoin 2024 Cape Town, held at the Ballroom West, CTICC 1.
+                            This vibrant venue is just a stone's throw away from major attractions like Table Mountain,
+                            and offers access to awesome hikes on Lion's Head and world-renowned shopping at the V&A Waterfront. 
+                            Additionally, it's conveniently situated only a 20-minute drive from Cape Town International Airport.
                         </p>
                         <br><br>
-                        <a href="https://www.ihg.com/crowneplaza/hotels/us/en/san-salvador/sslcp/hoteldetail/directions?cm_mmc=GoogleMaps-_-CP-_-SV-_-SSLCP"
+                        <a href="https://www.cticc.co.za/maps-directions/"
                            target="_blank" class="hover:underline uppercase">
                             Get There
                         </a>
