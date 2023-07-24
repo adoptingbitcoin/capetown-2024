@@ -26,7 +26,7 @@
         <div class="container mx-auto px-4 z-20 relative mt-32">
             <div class="grid md:grid-cols-2">
                 <div class="py-5">
-                    <nuxt-img loading="lazy" src="/images/cticc.png"
+                    <nuxt-img loading="lazy" src="/images/cticc2.png"
                               class="max-w-full max-h-80vh w-1/2 z-20 mx-auto relative"
                               alt=""/>
                 </div>
