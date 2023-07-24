@@ -8,8 +8,8 @@
 
             <div class="container flex-col md:flex-row flex w-full justify-between items-center [&>*]:m-5">
                 <div class="uppercase">
-                    <span>Adopting Bitcoin    ·    The Crowne Plaza </span> <br>
-                    <span>89 Avenida Norte    ·    San Salvador</span>
+                    <span>Adopting Bitcoin    ·    CTICC </span> <br>
+                    <span>1 Lower Long Street    ·    Cape Town</span>
                 </div>
 
                 <TicketPurchase class="mx-auto"/>
@@ -20,8 +20,8 @@
                         A conference <br>
                         hosted by
                     </span>
-                        <nuxt-link to="https://galoy.io" target="_blank">
-                            <nuxt-img class="h-full w-auto object-contain" loading="lazy" src="/images/galoy_logo.png"
+                        <nuxt-link to="https://8333.mobi" target="_blank">
+                            <nuxt-img class="h-full w-auto object-contain" loading="lazy" src="/images/machankura_white.png"
                                       alt=""/>
                         </nuxt-link>
                     </div>
