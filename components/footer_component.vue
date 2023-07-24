@@ -21,7 +21,7 @@
                         hosted by
                     </span>
                         <nuxt-link to="https://8333.mobi" target="_blank">
-                            <nuxt-img class="h-full w-auto object-contain" loading="lazy" src="/images/machankura_white.png"
+                            <nuxt-img class="h-full w-auto object-contain" loading="lazy" src="/images/8333.png"
                                       alt=""/>
                         </nuxt-link>
                     </div>
