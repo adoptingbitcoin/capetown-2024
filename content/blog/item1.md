@@ -1,5 +1,5 @@
 ---
 url: https://google.com/
-description: Sit ista in Graecorum levitate perversitas, qui maledictis insectantur.  Vides igitur te aut ea sumere, quae non concedantur.
-img: item1.jpg
+description: Announcing Adopting Bitcoin Cape Town
+img: itemAB2024.png
 ---
