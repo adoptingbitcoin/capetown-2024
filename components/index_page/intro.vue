@@ -1,8 +1,8 @@
 <template>
     <div class="component">
 
-        <AngledBanner topImage="/images/section-heading--adb-is-back.svg"
-                      bottomImage="/images/section-heading--adb-is-back.svg"/>
+        <AngledBanner topImage="/images/section-heading---adb-is-back.svg"
+                      bottomImage="/images/section-heading---adb-is-back.svg"/>
 
         <div class="container mx-auto px-4">
             <div class="grid md:grid-cols-2 mb-12">
