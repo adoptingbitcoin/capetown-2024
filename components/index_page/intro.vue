@@ -11,14 +11,14 @@
                     <client-only>
                         <p>
                             <FadeInText
-                                    text="Unleashing the Power of Bitcoin:"/>
+                                    text="Unleash the Future: Bitcoin, Self-Sovereignty, and Parallel Institutions."/>
                             <FadeInText
-                                    text="Adoption, Self-Sovereignty, and Lightning Revolution "/>
+                                    text="Join experts, advocates, and innovators from around the world"/>
                         </p>
                         <br>
                         <p>
                             <FadeInText
-                                    text="Join us for an extraordinary event in the breathtaking city of Cape Town, South Africa, where visionaries and trailblazers from around the globe will converge for the Adopting Bitcoin Cape Town Conference 2024!"/>
+                                    text="at this extraordinary event in sunny Cape Town, South Africa."/>
                         </p>
                     </client-only>
                 </div>
