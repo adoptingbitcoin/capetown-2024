@@ -11,9 +11,9 @@
                     <client-only>
                         <p>
                             <FadeInText
-                                    text="Unleash the Future: Bitcoin, Self-Sovereignty, and Parallel Institutions."/>
+                                    text="Unleash the Future: "/>
                             <FadeInText
-                                    text=""/>
+                                    text="Bitcoin, Self-Sovereignty, and Parallel Institutions."/>
                         </p>
                         <br>
                         <p>
