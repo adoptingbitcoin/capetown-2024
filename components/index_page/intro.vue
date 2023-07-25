@@ -13,12 +13,12 @@
                             <FadeInText
                                     text="Unleash the Future: Bitcoin, Self-Sovereignty, and Parallel Institutions."/>
                             <FadeInText
-                                    text="Join experts, advocates, and innovators from around the world"/>
+                                    text=""/>
                         </p>
                         <br>
                         <p>
                             <FadeInText
-                                    text="at this extraordinary event in sunny Cape Town, South Africa."/>
+                                    text="Join experts, advocates, and innovators from around the world at this extraordinary event in sunny Cape Town, South Africa."/>
                         </p>
                     </client-only>
                 </div>
