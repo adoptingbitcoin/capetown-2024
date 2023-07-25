@@ -17,7 +17,7 @@
                             we'll get in touch with you.
                         </p>
                         <br>
-                        <a href="https://forms.gle/ntzhTUgzim3HJSqq7" target="_blank"
+                        <a href="https://forms.gle/dHF6aaaToqo6Cr2x5" target="_blank"
                            class="hover:underline float-right">REACH OUT</a>
                     </div>
                 </div>
