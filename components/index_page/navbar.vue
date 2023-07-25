@@ -45,8 +45,7 @@
                     <nuxt-link to="/#partners" v-on:click="menuOpen = false">partners</nuxt-link>
                     <nuxt-link to="/#team" v-on:click="menuOpen = false">team</nuxt-link>
 
-                    <nuxt-link to="https://www.bitcoinerevents.com/bitcoin-month/" target="_blank">Bitcoin Month
-                    </nuxt-link>
+                    
                     <nuxt-link to="https://talks.adoptingbitcoin.org" target="_blank">Call for Participation</nuxt-link>
                     <nuxt-link to="/faq">FAQ</nuxt-link>
                 </div>
