@@ -1,33 +1,49 @@
 <template>
-  <div class="component py-36">
-      <div class="container mx-auto mx-4">
+    <div class="component">
 
-          <div class="grid grid-cols-2">
-              <div class=""></div>
-              <div class="">
-                  <h5 class="font-bold">Payable with bitcoin only.</h5>
-                  <p class="text-sm">
-                      Los salvadoreños que compren una entrada con descuento deberán mostrar su DUI en la puerta.
-                  </p>
+        <AngledBanner top-image="/images/section-heading--buy-ticket.svg"
+                      bottom-image="/images/section-heading--buy-ticket.svg"/>
 
-              </div>
-          </div>
+        <div class="container">
 
-      </div>
-      
-      <div class="tickets my-5">
-          <img src="~/assets/img/tickets-row.png" alt="">
-          <img src="~/assets/img/tickets-row-2.png" alt="">
-      </div>
-  </div>
+            <div class="grid lg:grid-cols-3 mb-12">
+                <div class=""></div>
+                <div class=""></div>
+                <div class="">
+                    <h5 class="font-bold text-3xl">Payable with bitcoin only.</h5>
+                    <br>
+                    <p>
+                        Don't miss this incredible opportunity to be part of the Bitcoin revolution. Early bird
+                        registration opens soon, so stay tuned for updates! Follow us on social media and visit our
+                        website to stay informed.
+                    </p>
+                    <br><br>
+                    <a class="uppercase" target="_blank" href="https://pretix.eu/machankura/ab24capetown/">Book Now</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="tickets mt-5">
+            <a href="https://pretix.eu/machankura/ab24capetown/" target="_blank">
+                <TicketBanner top-image="/images/assets/tickets/ticket-row1-july.svg"
+                              bottom-image="/images/assets/tickets/ticket-row2-july.svg" class="w-full"/>
+            </a>
+
+        </div>
+    </div>
 </template>
 
 <style scoped>
 .component {
-  background-color: #EEDB5F;
-  color: black;
+    color: black;
+    @apply py-0 bg-adoptingYellow;
 }
+
 img {
-  @apply w-full h-auto my-3;
+    @apply w-full h-auto my-3;
 }
 </style>
+<script setup lang="ts">
+import TicketBanner from "~/components/TicketBanner.vue";
+</script>

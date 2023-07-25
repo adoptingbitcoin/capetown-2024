@@ -35,6 +35,27 @@ yarn preview
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
 
-## CSS Framework
+## Used Components/Modules
 
 - TailwindCSS
+- [NuxtImage](https://v1.image.nuxtjs.org/get-started)
+
+## Ordering Content
+
+By default, content is ordered alphabetically based on the filename of the markdown file. 
+To change the order, simply add a number to the filename. See [Official Documentation](https://content.nuxtjs.org/guide/writing/content-directory#ordering).
+
+Examples:
+
+- `1.first.md`
+- `2.second.md`
+- `default.md`
+- `order.md`
+
+## Adding Content
+
+- add speaker `.md` file to `/content/<type>/<SPEAKER_FILENAME>.md`
+- add image to `/public/<type>/<IMG_FILENAME>.jpg|png`
+- set `img` property in `.md` file to `<IMG_FILENAME>.jpg|png`
+
+Please see existing content for examples.
