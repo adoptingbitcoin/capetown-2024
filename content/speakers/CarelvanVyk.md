@@ -1,5 +1,5 @@
 ---
-title: "Carel van Vyk Hanauer"
+title: "Carel van Vyk"
 company: Crypto Convert
 img: carel.jpg
 ---
