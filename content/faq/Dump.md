@@ -2,7 +2,8 @@ title: Arriving in Cape Town
 language: en
 faq:
   - question: 'Visa'
-    answer: 'Visa requirements vary depending on your nationality. We recommend checking with the South African embassy or consulate in your country for the most up-to-date information. In some cases, an unabridged birth certificate may be required for travellers with children. Please ensure you have all necessary travel documents before planning your trip. Check for <a href="https://www.passportindex.org/travel-visa-checker/">visa requirements</a> or <a href="https://www.iatatravelcentre.com/passport-visa-health-travel-document-requirements.htm">this resource</a> for your own nationality.'
+    answer: 'Visa requirements vary depending on your nationality. We recommend checking with the South African embassy or consulate in your country for the most up-to-date information. In some cases, an unabridged birth certificate may be required for travellers with children. Please ensure you have all necessary travel documents before planning your trip.
+Check for <a href="https://www.passportindex.org/travel-visa-checker/">visa requirements</a> or <a href="https://www.iatatravelcentre.com/passport-visa-health-travel-document-requirements.htm">this resource</a> for your own nationality.'
   - question: 'Flights'
     answer: 'Cape Town International Airport (IATA code: CPT) is the primary gateway to the city. Many major airlines offer direct flights to Cape Town from various international destinations. You can also consider connecting flights from Johannesburg´s OR Tambo International Airport (IATA code: JNB) to Cape Town. We advise booking your flights well in advance to secure the best rates.'
   - question: 'Weather and Climate'
@@ -29,3 +30,4 @@ faq:
 <br>- Poison Information Helpline (AfriTox): dial 0861555777'
   - question: 'Things to know before you go'
     answer: 'South Africa´s currency is the rand; small change is useful for tips and markets, but most places take card. Although Cape Town is generally safe for tourists, crime is a problem in South Africa — be vigilant, don´t flash your valuables, don´t hike alone, and do take an Uber after dark. If you´re driving, you can tip ´car guards´ (self-employed people in high-vis vests who will often help you park and then watch your car) and petrol attendants (they fill it for you unlike many self-service options overseas just make sure whether your vehicle is petrol or diesel); locals generally tip about R5-10. Tipping or 10% of the bill is also appreciated in restaurants. Please note that these FAQs provide general information, and it´s recommended to conduct further research and consult official sources for detailed and up-to-date information regarding visas, travel, safety, and tourist activities in Cape Town.'
+
