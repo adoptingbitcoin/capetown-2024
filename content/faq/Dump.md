@@ -1,0 +1,33 @@
+title: Arriving in Cape Town
+language: en
+faq:
+  - question: 'Visa'
+    answer: 'Visa requirements vary depending on your nationality. We recommend checking with the South African embassy or consulate in your country for the most up-to-date information. In some cases, an unabridged birth certificate may be required for travellers with children. Please ensure you have all necessary travel documents before planning your trip.
+Check for <a href="https://www.passportindex.org/travel-visa-checker/">visa requirements</a> or <a href="https://www.iatatravelcentre.com/passport-visa-health-travel-document-requirements.htm">this resource</a> for your own nationality.'
+  - question: 'Flights'
+    answer: 'Cape Town International Airport (IATA code: CPT) is the primary gateway to the city. Many major airlines offer direct flights to Cape Town from various international destinations. You can also consider connecting flights from Johannesburg´s OR Tambo International Airport (IATA code: JNB) to Cape Town. We advise booking your flights well in advance to secure the best rates.'
+  - question: 'Weather and Climate'
+    answer: 'Cape Town experiences the height of summer during this period. Expect warm and sunny weather with temperatures usually ranging from 25°C to 30°C (77°F to 86°F). However, please note that weather conditions can be variable, and we recommend checking the local forecast closer to your travel dates. Cape Town is known for its windy late-afternoons during summer (the Cape Doctor/South-Easter) so it is best you prepare your itinerary accordingly by doing most activities in the morning and mid-afternoon.'
+  - question: 'Ground transportation'
+    answer: 'Cape Town offers various transportation options, including Uber, car hire services (Avis, Sixt, Hertz etc), and the MyCiTi public-bus system. Uber is widely available and convenient for getting around the city. Car hire services are available at the airport and throughout the city, providing flexibility for exploring the region. The MyCiTi bus system offers reliable and affordable transportation within Cape Town, with routes covering major tourist areas.'
+  - question: 'Safety'
+    answer: 'Like any major city, it´s important to exercise caution and be street smart when visiting Cape Town. The CBD (Central Business District) is generally safe during the day, but it´s advisable to take precautions such as avoiding isolated areas at night and keeping an eye on your belongings. We recommend using reliable transportation services, staying in well-regarded accommodations, and being aware of your surroundings. Giving beggars money is best to be avoided as it reinforces the behaviour. If you are concerned about safety, here are some measures you can take to ease your mind while here:
+<br>- Don´t walk alone at night
+<br>- Don´t venture into unknown neighbourhoods 
+<br>- Always keep cash at hand in case you need it
+<br>- Don´t “bring” your coins to the summit, and don´t carry valuable items with you'
+  - question: 'Accommodations'
+    answer: 'Cape Town offers a wide range of accommodations to suit different preferences and budgets. From luxury hotels to guesthouses and vacation rentals, there are options for every traveller. We recommend researching and booking accommodations well in advance to secure the best rates and availability.'
+  - question: 'Drinking water'
+    answer: 'Yes, Cape Town has some of the highest quality drinking-water in the world!'
+  - question: 'Emergency Best Practice'
+    answer: 'Know your consulate information phone number and address. Here are other useful numbers:
+<br>- Emergencies from Mobile: Dial 112
+<br>- Emergencies from Landline: Dial 107
+<br>- South African Police Service: Dial 10111
+<br>- Ambulance: Dial 10177
+<br>- Wilderness Search and Rescue (WSAR): dial 0219370300
+<br>- Poison Information Helpline (AfriTox): dial 0861555777'
+  - question: 'Things to know before you go'
+    answer: 'South Africa´s currency is the rand; small change is useful for tips and markets, but most places take card. Although Cape Town is generally safe for tourists, crime is a problem in South Africa — be vigilant, don´t flash your valuables, don´t hike alone, and do take an Uber after dark. If you´re driving, you can tip ´car guards´ (self-employed people in high-vis vests who will often help you park and then watch your car) and petrol attendants (they fill it for you unlike many self-service options overseas just make sure whether your vehicle is petrol or diesel); locals generally tip about R5-10. Tipping or 10% of the bill is also appreciated in restaurants. Please note that these FAQs provide general information, and it's recommended to conduct further research and consult official sources for detailed and up-to-date information regarding visas, travel, safety, and tourist activities in Cape Town.'
+
