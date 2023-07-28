@@ -38,7 +38,7 @@
                     &nbsp;
                     <a target="_blank" href=" https://github.com/nuraelb/AdoptingBitcoin">/GitHub</a> &nbsp;
                     <br>
-                    <a href="mailto:info@adoptingbitcoin.org">email if you need / info@adoptingbitcoin.org</a>
+                    <a href="mailto:capetown@adoptingbitcoin.org">email if you need / capetown@adoptingbitcoin.org</a>
 
                 </div>
 
