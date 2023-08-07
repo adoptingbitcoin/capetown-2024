@@ -1,6 +1,6 @@
 ---
 title: "Bheki Mahlobo"
-company: ETM Analytics
+company: Market Analyst
 img: bheki.jpg
 ---
 
