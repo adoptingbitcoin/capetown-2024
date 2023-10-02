@@ -26,8 +26,8 @@
 
         <div class="tickets mt-5">
             <a href="https://pretix.eu/machankura/ab24capetown/" target="_blank">
-                <TicketBanner top-image="/images/assets/tickets/tickets--october-row-1.svg"
-                              bottom-image="/images/assets/tickets/tickets--october-row-2.svg" class="w-full"/>
+                <TicketBanner top-image="/images/assets/tickets/tickets--november-row-1.svg"
+                              bottom-image="/images/assets/tickets/tickets--november-row-2.svg" class="w-full"/>
             </a>
 
         </div>
