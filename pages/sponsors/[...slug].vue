@@ -4,7 +4,7 @@ import Navbar from "~/components/index_page/navbar.vue";
 import Speakers from "~/components/index_page/speakers.vue";
 
 const route = useRoute()
-const {data} = await useAsyncData('speaker' + route.path + process.env.CACHE_KEY, () => queryContent(route.path).findOne())
+const {data} = await useAsyncData('sponsor' + route.path + process.env.CACHE_KEY, () => queryContent(route.path).findOne())
 
 </script>
 
@@ -15,7 +15,7 @@ const {data} = await useAsyncData('speaker' + route.path + process.env.CACHE_KEY
     </Head>
     <navbar/>
     <div class="pt-12 md:pt-0">
-      <StraightBanner class="pb-0 md:pb-12" top-image="images/section-heading--single-speaker.svg"/>
+      <StraightBanner class="pb-0 md:pb-12" top-image="images/section-heading--single-sponsor.svg"/>
 
       <div class="container md:pb-36">
 
@@ -23,10 +23,9 @@ const {data} = await useAsyncData('speaker' + route.path + process.env.CACHE_KEY
 
           <div class="">
             <div class="w-full md:w-3/4 mx-auto relative">
-              <nuxt-img :src="'/images/speakers/' + data.img" class="mx-auto w-full h-auto p-12"/>
-              <div class="absolute bottom-0 right-0">
-                <TicketPurchase/>
-              </div>
+              <nuxt-link :href="data.url" target="_blank">
+                <nuxt-img :src="'/images/sponsors/' + data.img" class="mx-auto w-full h-auto p-12"/>
+              </nuxt-link>
             </div>
           </div>
 
@@ -56,5 +55,9 @@ const {data} = await useAsyncData('speaker' + route.path + process.env.CACHE_KEY
 <style scoped>
 .component {
   @apply py-0;
+}
+
+a {
+  @apply underline;
 }
 </style>
