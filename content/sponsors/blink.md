@@ -2,6 +2,6 @@
 title: Blink
 url: https://blink.sv
 img: sponsorblink.png
-row: 1
+row: 2
 caption: Blink
 ---
