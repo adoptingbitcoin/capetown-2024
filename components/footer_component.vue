@@ -18,7 +18,7 @@
                     <div class="flex">
                     <span class="uppercase mr-5">
                         A conference <br>
-                        hosted by
+                        hosted by Port 8333
                     </span>
                         <nuxt-link to="https://8333.mobi" target="_blank">
                             <nuxt-img class="h-full w-auto object-contain" loading="lazy" src="/images/8333.png"
