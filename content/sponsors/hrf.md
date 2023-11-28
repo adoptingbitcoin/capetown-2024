@@ -1,7 +1,7 @@
 ---
 title: Human Rights Foundation
 url: https://hrf.org/
-img: sponsorhrf.png
+img: sponsorhrf1.png
 row: 3
 caption: We exist to unite the world to stand against tyranny
 ---
