@@ -6,4 +6,4 @@ row: 3
 caption: Empower communities everywhere
 ---
 
-Fedi creates a new way for communities and organisations to secure and use their money and data with a Federated OS. We connect the most fundamental human technology — community — with freedom technologies, like Bitcoin, to level up humanity.
+Fedi combines chat, money, and more in one private superapp, run by and for communities and their members. We connect the most fundamental human technology — community — with freedom technologies to level up humanity.
