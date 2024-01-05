@@ -1,6 +1,6 @@
 ---
 title: "Marthinus Grobler"
-company: Tripolis
+company: Tipolis
 img: marthinus.jpg
 ---
 
