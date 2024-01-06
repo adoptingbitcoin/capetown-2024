@@ -1,5 +1,5 @@
 ---
-title: "Vlad"
+title: "Vladimir Fomene"
 company: BTrust Builders
 img: vlad.jpg
 ---

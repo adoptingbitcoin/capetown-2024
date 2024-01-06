@@ -1,0 +1,7 @@
+---
+title: "Adine Roode"
+company: HERD
+img: adine.jpg
+---
+
+MD and Owner of Jabulani and Founder of Hoedspruit Elephant Rehabilitation and Development (HERD), Adine Roode has dedicated her life to supporting two of Africa’s vulnerable wildlife species, namely elephants and rhinos. Adine is recognised in the conservation industry for her past work with rhinos at the Hoedspruit Endangered Species Centre (HESC), however, her most significant work has been in elephant conservation, which began in 1997, when HESC successfully hand-reared their first orphaned elephant. With the growing number of elephant orphans and displaced elephant calves in South Africa, at the hands of poaching and human-elephant conflict, Adine saw a need for an elephant orphanage that would take in, rehabilitate, and integrate elephant calves in need of a herd and a safe home. This led her to establish a dedicated elephant orphanage, HERD, where orphans can be rehabilitated and eventually released into the welcoming embrace of a herd that they could call their own, giving them a second chance at life. Adine will attend the conference to deepen her understanding of Bitcoin adoption and explore its potential contributions to securing the elephants' future through conservation efforts.
