@@ -1,6 +1,6 @@
 ---
 title: "Heritage Falodun"
-company: Bitcoin Consultant
+company: DigiOats
 img: heritage.jpg
 ---
 
