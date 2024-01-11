@@ -1,7 +1,7 @@
 ---
 title: "Ray Youssef"
-company: CivKit
+company: NoOnes & CivKit
 img: ray.jpg
 ---
 
-Ray Youssef is the writer of the CivKit white paper, a decentralized open source protocol of Civilization 2.0. Youssef is a passionate advocate for financial inclusion and believes that Bitcoin can play a major role in liberating the global south from poverty. He is also a vocal critic of centralized financial systems and has called for the creation of a "decentralized world order."
+Ray Youssef is the newly appointed CEO of NoOnes, a financial communication super app connecting the Global South to the world’s financial systems. Youssef is renown for building of one of the world's largest peer-to-peer platforms for buying and selling Bitcoin. He co-authored of the CivKit white paper, a decentralized open source protocol of Civilization 2.0. A passionate advocate for financial inclusion, Youssef believes that Bitcoin can play a major role in liberating the global south from poverty. He is also a vocal critic of centralized financial systems and has called for the creation of a "decentralized world order." Youssef is a serial entrepreneur and has founded several successful startups, including Paxful, which grew to over 7 million users in over 190 countries. He is also a member of the Built With Bitcoin Foundation, which is working to build schools, solar power systems and other infrastructure in Africa using Bitcoin. Youssef is a visionary leader in the cryptocurrency space and is working to build a more equitable and inclusive financial system for all. Here is a quote from Youssef that sums up his mission: "I believe that Bitcoin is the most powerful tool for financial inclusion and liberation that the world has ever seen. I am on a mission to make the poor rich and to liberate the global south from poverty. This is why I am sharing CivKit with the world."
