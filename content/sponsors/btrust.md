@@ -2,7 +2,7 @@
 title: ₿trust
 url: https://github.com/btrustteam/board-book
 img: sponsorbtrust1.png
-row: 3
+row: 4
 caption: Decentralize Bitcoin Development
 ---
 
