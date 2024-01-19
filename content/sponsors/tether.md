@@ -6,4 +6,4 @@ row: 2
 caption: Driving the Future of Money
 ---
 
-Tether tokens are the most widely adopted stablecoins, having pioneered the concept in the digital token space. A disruptor to the conventional financial system and a trailblazer in the digital use of traditional currencies, Tether tokens support and empower growing ventures and innovation throughout the blockchain space. Tether tokens exist as a digital token built on multiple blockchains.
+Tether was founded by a group of Bitcoin enthusiasts and early adopters, passionate about facilitating the use of fiat currencies in a digital manner. In 2014, the company launched Tether.to, a blockchain-enabled platform aimed at disrupting the conventional financial system with a more modern approach to money. Our flagship product, USDt, is the world's largest stablecoin, embodying trust and reliability in the digital finance realm. Additionally, Tether entered the Bitcoin mining industry with investments in green energy production and mining in Uruguay, Paraguay, and El Salvador. 
