@@ -46,7 +46,7 @@
                     <nuxt-link to="/#team" v-on:click="menuOpen = false">team</nuxt-link>
 
                     
-                    <nuxt-link to="https://pretalx.com/adopting-bitcoin-cape-town-2024/cfp" target="_blank">Call for Participation</nuxt-link>
+                    <nuxt-link to="https://pretalx.com/adopting-bitcoin-cape-town-2024/schedule/" target="_blank">Conference Schedule</nuxt-link>
                     <nuxt-link to="/faq">FAQ</nuxt-link>
                 </div>
 
