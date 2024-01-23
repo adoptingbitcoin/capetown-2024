@@ -8,8 +8,8 @@
                 </nuxt-link>
 
                 <div class="flex items-center">
-                    <nuxt-link to="https://pretalx.com/adopting-bitcoin-cape-town-2024/cfp" class="underline mb-2 mr-12 hidden md:block"
-                               target="_blank">Call for participation
+                    <nuxt-link to="https://pretalx.com/adopting-bitcoin-cape-town-2024/schedule/" class="underline mb-2 mr-12 hidden md:block"
+                               target="_blank">Conference Schedule
                     </nuxt-link>
                     <a v-on:click="menuOpen = !menuOpen" class="h-18 w-18 cursor-pointer">
                         <div class="m-auto" :class="menuOpen ? 'hidden' : 'visible'">
@@ -24,8 +24,7 @@
             </div>
             <div class="w-full md:hidden flex justify-between">
                 <div class="mx-auto mt-5">
-                    <nuxt-link to="https://pretalx.com/adopting-bitcoin-cape-town-2024/cfp" class="underline" target="_blank">Call for
-                        participation
+                    <nuxt-link to="https://pretalx.com/adopting-bitcoin-cape-town-2024/schedule/" class="underline" target="_blank">Conference Schedule
                     </nuxt-link>
                 </div>
 
