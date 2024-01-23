@@ -24,8 +24,7 @@
             </div>
             <div class="w-full md:hidden flex justify-between">
                 <div class="mx-auto mt-5">
-                    <nuxt-link to="https://pretalx.com/adopting-bitcoin-cape-town-2024/cfp" class="underline" target="_blank">Call for
-                        participation
+                    <nuxt-link to="https://pretalx.com/adopting-bitcoin-cape-town-2024/schedule/" class="underline" target="_blank">Conference Schedule
                     </nuxt-link>
                 </div>
 
