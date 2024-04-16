@@ -1,9 +1,9 @@
 {
   "private": true,
   "scripts": {
-    "build": "DIR='/capetown-2024/' nuxi generate --fail-on-error",
+    "build": "DIR='/' nuxi generate --fail-on-error",
     "dev": "DIR='/' nuxi dev",
-    "generate": "DIR='/capetown-2024/' nuxi generate --fail-on-error",
+    "generate": "DIR='/' nuxi generate --fail-on-error",
     "preview": "nuxi preview",
     "postinstall": "nuxi prepare"
   },
